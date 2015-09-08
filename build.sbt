@@ -6,7 +6,7 @@ name := "tempgres-client"
 
 organization := "dk.cwconsult"
 
-version := "1.0"
+version := "1.1-SNAPSHOT"
 
 //
 // sbt-pgp settings
