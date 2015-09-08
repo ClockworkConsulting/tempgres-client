@@ -9,6 +9,12 @@ organization := "dk.cwconsult"
 version := "1.0-SNAPSHOT"
 
 //
+// sbt-pgp settings
+//
+
+useGpg := true
+
+//
 // This is a Java-only project, so we don't need the scala
 // library nor the artifact name mangling.
 //
