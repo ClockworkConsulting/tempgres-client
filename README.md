@@ -10,7 +10,7 @@ REST service for creating temporary PostgreSQL databases for tests.
 To get started, add `tempgres-client` as a dependency in your
 project. You'll probably want a "test"-scoped dependency.
 
-## Maven
+For **Maven**, you need to add
 
     <dependency>
         <groupId>dk.cwconsult</groupId>
@@ -19,7 +19,7 @@ project. You'll probably want a "test"-scoped dependency.
         <scope>test</scope>
     </dependency>
 
-## SBT
+For **SBT**, you need to add
 
     libraryDependencies += "dk.cwconsult" % "tempgres-client" % "1.0" % "test"
 
