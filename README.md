@@ -15,13 +15,13 @@ project. You'll probably want a "test"-scoped dependency.
     <dependency>
         <groupId>dk.cwconsult</groupId>
         <artifactId>tempgres-client</artifactId>
-        <version>1.0</version>
+        <version>1.1.0</version>
         <scope>test</scope>
     </dependency>
 
 ### SBT
 
-    libraryDependencies += "dk.cwconsult" % "tempgres-client" % "1.0" % "test"
+    libraryDependencies += "dk.cwconsult" % "tempgres-client" % "1.1.0" % "test"
 
 ## Example (Java)
 
