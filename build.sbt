@@ -27,4 +27,4 @@ autoScalaLibrary := false
 // Compiler settings
 //
 
-javacOptions ++= Seq("-source", "1.7", "-target", "1.7")
+javacOptions in (Compile, compile) ++= Seq("-source", "1.7", "-target", "1.7")
